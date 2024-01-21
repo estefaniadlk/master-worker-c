@@ -9,6 +9,7 @@ Master (Server):
 Creates a message queue, attaches to shared memory, and initializes semaphores for worker coordination.
 Generates a matrix representing the binary number, with the size of the matrix equal to the number of workers.
 Coordinates the reception of binary digits from workers (filled matrix) and performs the conversion to obtain the decimal equivalent.
+
 Worker (Client):
 
 Attaches to shared memory and receives the necessary semaphore.
